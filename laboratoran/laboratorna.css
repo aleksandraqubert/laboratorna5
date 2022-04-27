@@ -1,0 +1,155 @@
+#NAV{
+    display:grid;
+      
+    grid-area: navigation;
+        background-color: white;
+        color: plum;
+        text-shadow: 1px 1px  papayawhip;
+        border: 1px solid;
+}
+.first.one{
+    display:grid;
+    text-align:center;
+    margin-top: -20px;
+}
+.first.two{
+    display:grid;
+    text-align:center;
+    margin-top: -20px;
+}
+.first.three{
+    display:grid;
+    text-align:center;
+    margin-top: -20px;
+}
+.first.four{
+    display:grid;
+    text-align:center;
+    margin-top: -20px;
+}
+.first.five{
+    display:grid;
+    text-align:center;
+    margin-top: -20px;
+}
+.first.six{
+    display:grid;
+    text-align:center;
+    margin-top: -20px;
+}
+.first1{
+  
+   display:grid;
+   text-align:center;
+
+}
+
+.first12{
+  
+  display:grid;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.first11{
+  display:grid;
+  text-align:center;
+  border: 1px solid;
+  background-color:white;
+  font-size: 20px;
+  border-radius:200px;
+  padding: 0px 10px;
+  width:100px;
+  margin-top: -50px;
+
+
+}
+.first2{
+    padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background:linear-gradient(#EE82EE,#D8BFD8);
+  font-size:18px;
+  border:0;
+  cursor:pointer;
+  margin: 50px;
+  height: 50px;
+  margin-top: -50px;
+ 
+
+}
+#second{
+    display:grid;
+    grid-area: articles;
+    color:black;
+    grid-template-rows: 1fr 2fr 2fr;
+    background-image:  url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1807/Pink-peonies-tender_1920x1080.jpg);
+ 
+}
+.second2{   
+  display:grid;
+  align-items: center;
+  text-align:center;
+  background:linear-gradient(#FFF0F5,#F8F8FF);
+  font-size: 15px;
+  font-size:  large;
+  grid-template-columns:500px 30px 500px;
+  border: 1px solid;
+  margin:30px ;
+  margin-top: -30px;
+}
+
+.question{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+  text-align:center;
+  grid-gap:10px;
+  margin-top: -50px;
+}
+
+button.mbtn{
+  padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background:linear-gradient(#EE82EE,#D8BFD8);
+  font-size:18px;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+  height: 50px;
+}
+.way{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  text-align:center;
+  margin-top: -50px;
+}
+.card{
+   
+  max-width: 350px;
+  min-height: 140px;
+  border-radius: 25px ;
+  padding: 15px;
+  margin: 10px;
+  background-color: #F5F5F5;
+  text-align: center;
+  box-shadow: 0 0 10px
+    rgba(0, 0, 0, 0.3);
+    margin-left: 100px;
+    margin-top: 40px;
+    box-shadow: 3px 3px grey;
+}
+body{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap:0px;
+    margin:0px;
+    height: 100vh;
+    grid-template-areas: 
+    "navigation articles";
+  
+
+} 
